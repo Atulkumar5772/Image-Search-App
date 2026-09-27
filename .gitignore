@@ -1,0 +1,11 @@
+# Sensitive Configuration & API Keys
+config.js
+.env
+.env.local
+
+# Personal documents
+*.pdf
+
+# OS generated files
+.DS_Store
+Thumbs.db

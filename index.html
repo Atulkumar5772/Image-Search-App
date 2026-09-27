@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Title -->
+  <title>Image Search App | Free Online Image Finder</title>
+  
+  <!-- Meta Description -->
+  <meta name="description" content="Search and explore free high-quality images online using Unsplash API. A fast and responsive image finder built with HTML, CSS, and JavaScript.">
+  <meta name="keywords" content="Image Search App, free image search, online image finder, Unsplash API project, HTML CSS JavaScript project">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Image Search App">
+  <meta property="og:description" content="Search and explore free high-quality images using Unsplash API.">
+  <meta property="og:type" content="website">
+  
+  <!-- Font Awesome Icons for Download & UI -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- CSS File -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Image Search App</h1>
+    <form id="search-form">
+      <input type="text" id="search-box" placeholder="Search high-quality images (e.g. Nature, Cars, Tech)..." required>
+      <button type="submit"><i class="fa-solid fa-magnifying-glass"></i> Search</button>
+    </form>
+    
+    <!-- Image Gallery -->
+    <div id="image-results" class="image-results"></div>
+  </div>
+
+  <!-- Image Preview Modal / Lightbox -->
+  <div id="image-modal" class="modal">
+    <div class="modal-overlay" id="modal-overlay"></div>
+    <div class="modal-content">
+      <button class="close-btn" id="close-modal-btn" title="Close Preview">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      
+      <div class="modal-image-wrapper">
+        <img id="modal-img" src="" alt="Enlarged Preview">
+      </div>
+      
+      <div class="modal-footer">
+        <div class="modal-info">
+          <p id="modal-author"><i class="fa-solid fa-camera"></i> Photo by <span></span></p>
+        </div>
+        <button id="download-btn" class="download-btn">
+          <i class="fa-solid fa-download"></i> Download Image
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Configuration (API Key) & Main Script -->
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
