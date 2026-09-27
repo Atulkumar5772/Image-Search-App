@@ -2,14 +2,24 @@
 
 # 🖼️ Image Search App
 
-### A Fast, Responsive Image Finder with HD Modal Preview & Direct Download
+### A Fast, Responsive Image Discovery Engine with HD Modal Preview & 1-Click Download
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Frontend-HTML5%20%7C%20CSS3%20%7C%20JavaScript-2563EB?style=for-the-badge&logo=javascript&logoColor=white">
-  <img src="https://img.shields.io/badge/API-Unsplash%20REST%20API-black?style=for-the-badge&logo=unsplash&logoColor=white">
-  <img src="https://img.shields.io/badge/Status-Completed-10B981?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Project-1st%20Year%20Internship-8B5CF6?style=for-the-badge">
+  <a href="https://atulkumar5772.github.io/Image-Search-App/" target="_blank">
+    <img src="https://img.shields.io/badge/🌐 Live Demo-2563EB?style=for-the-badge">
+  </a>
+  <a href="LICENSE">
+    <img src="https://img.shields.io/badge/License-MIT-10B981?style=for-the-badge">
+  </a>
+  <img src="https://img.shields.io/badge/Frontend-HTML5%20%7C%20CSS3%20%7C%20JS-orange?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge">
 </p>
+
+<br/>
+
+<a href="https://atulkumar5772.github.io/Image-Search-App/" target="_blank">
+  <img src="assets/preview.png" width="100%" alt="Image Search App Preview" />
+</a>
 
 </div>
 
@@ -38,13 +48,13 @@ The application allows users to query millions of curated photographs from the *
 
 <div align="center">
 
-| Component | Technology | Description |
+| Category | Technologies | Description |
 | :--- | :--- | :--- |
-| **Markup** | HTML5 | Semantic structure, accessibility, and SEO meta tags |
-| **Styling** | Modern CSS3 | Custom Grid, Glassmorphism, CSS Transitions & Keyframe Animations |
-| **Scripting** | Vanilla JavaScript (ES6+) | DOM Manipulation, Promises, Blob URLs & Event Listeners |
+| **Frontend** | HTML5 • Modern CSS3 • JavaScript (ES6+) | Semantic markup, responsive styling, and DOM handling |
 | **API Provider** | Unsplash Developers REST API | High-resolution photography database |
-| **Icons & Typography**| FontAwesome & System Sans | Vector icons for UI actions and navigation |
+| **Styling & UI** | Glassmorphism & FontAwesome | Dark gradients, modal backdrop filters & UI icons |
+| **Version Control** | Git & GitHub | Distributed version control & source code management |
+| **Hosting & Deployment** | GitHub Pages | Continuous automated deployment |
 
 </div>
 
@@ -54,6 +64,8 @@ The application allows users to query millions of curated photographs from the *
 
 ```text
 Image-Search-App/
+├── assets/
+│   └── preview.png      # Application screenshot & mockup banner
 ├── index.html           # Main markup & modal layout
 ├── style.css            # Dark mode styling & responsive grid
 ├── script.js            # Asynchronous search, modal & download logic
@@ -73,6 +85,14 @@ Building this project during my 1st Year Internship helped me master:
 - **Binary Data Handling:** Generating dynamic `Blob` objects and Object URLs for client-side file downloads.
 - **Dynamic DOM Engineering:** Creating components and event listeners on the fly without heavy frontend frameworks.
 - **Frontend Security Best Practices:** Managing environment secrets and separating configuration from public code.
+
+---
+
+## 🌐 Live Demo
+
+🔗 **Live Website:** [https://atulkumar5772.github.io/Image-Search-App/](https://atulkumar5772.github.io/Image-Search-App/)
+
+🔗 **GitHub Repository:** [https://github.com/Atulkumar5772/Image-Search-App](https://github.com/Atulkumar5772/Image-Search-App)
 
 ---
 
